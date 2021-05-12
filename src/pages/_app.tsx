@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
   }
 
   function setPlayingState(state: boolean) {
-    setIsPlaying(false);
+    setIsPlaying(state);
   }
 
   return (

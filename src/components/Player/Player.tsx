@@ -75,8 +75,8 @@ const Player = () => {
             src={episode.url}
             ref={audioRef}
             autoPlay
-            onPlay={setPlayingState(true)}
-            onPause={setPlayingState(false)}
+            onPlay={() => setPlayingState(true)}
+            onPause={() => setPlayingState(false)}
           />
         )}
 
